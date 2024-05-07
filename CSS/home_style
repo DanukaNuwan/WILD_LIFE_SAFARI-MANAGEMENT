@@ -1,0 +1,105 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.slider-container {
+    position: relative;
+    max-width: 100%;
+    margin: 2 auto;
+    overflow: hidden;
+  }
+
+  .slider {
+    display: flex;
+    transition: transform 0.3s ease;
+  }
+
+  .slider-item {
+    flex: 0 0 100%;
+  }
+
+  .slider-img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+  }
+
+  .slider-buttons {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+  }
+
+  .slider-button {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+
+  .slider-button.active {
+    background-color: #000;
+  }
+
+.topic {
+    text-align: center;
+    font-size: 70px;
+    font-weight: 80px;
+    font-family: "Lexend";
+}
+
+.option-card{
+  text-align: center;
+}
+.cards{
+  width: 15%;
+  display: inline-block;
+  border-radius: 5px;
+  margin: 30px;
+  box-shadow: 1px 1px 5px black;
+}
+.cards:hover{
+  box-shadow: 2px 2px 10px black;
+}
+
+.image img{
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.ctitle{
+  text-align: center;
+  padding: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: "Lexend";
+  font-size: 15px;
+}
+
+.des{
+  text-align: center;
+  padding: 5px;
+  font-family: "Lexend";
+
+}
+button{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: white;
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 5px;
+}
+button:hover{
+  background-color: #000;
+  color: white;
+  transition: 0.5s;
+  cursor: pointer;
+}

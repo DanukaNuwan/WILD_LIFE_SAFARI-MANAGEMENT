@@ -1,0 +1,94 @@
+
+*{
+    box-sizing: border-box
+}
+
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #f5cd91;
+}
+.main{
+    padding-top: 120px;
+    font-family:"Lexend";
+    font-size: 35px;
+    letter-spacing: 1.1em;
+    text-align: center;
+}
+
+.img-main{
+    padding-top: 50px ;
+    width: 100px;
+    text-align: center;
+    vertical-align: middle;
+
+}
+.para{
+
+    font-family:"Lexend";
+    font-size: 35px;
+    text-align: center;
+    color: rgba(102, 2, 2, 0.986);
+    
+}
+form{
+    padding-left: 150px;
+}
+
+form p{
+    color: #000000;
+    font-weight: 600;
+    margin-bottom: 5px;
+    margin-left: 40px;
+    font-size: 20px;
+    font-family: "Lexend";
+}
+
+form input{
+    border: 0;
+    margin: 10px 0;
+    padding: 20px;
+    outline: 2px;;
+    background: #f5f5f5;
+    font-size: 16px;
+    border-radius: 25px;
+}
+form label{
+    font-size: 15px;
+    font-family: "Lexend";
+}
+form button{
+    padding: 15px;
+    background: #ff5361;
+    color: #fff;
+    font-size: 18px;
+    border: 0;
+    cursor: pointer;
+    outline: none;
+    width: 150px;
+    margin: 20px auto 0;
+    border-radius: 30px;
+}
+
+.Div1{
+   
+    flex: 25%;
+    padding-top: 50px;
+     margin-left: 80px;
+    background-color: (185, 159, 15, 0.336);
+    width:50%;
+    float:left
+}
+
+.payment {
+ 
+    color: #64a4ac;
+    width: 30%;
+    height: 40%;
+    padding: 30px;
+    text-align: auto;
+    margin: 20px;
+    margin-left: 60%;
+  }
+

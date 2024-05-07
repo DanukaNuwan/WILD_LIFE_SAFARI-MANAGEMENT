@@ -1,0 +1,233 @@
+
+*{
+    box-sizing: border-box
+}
+
+body{
+    backdrop-filter: blur(8px);
+    background-image: url("../IMG/res2.jpg");
+    background-size: cover;
+    margin-top: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+.reservation{
+    width: 1000px;
+    background-color:#16293800;
+    backdrop-filter: blur(8px);
+    font-family: "Lexend";
+    margin:auto;
+    font-size: 40px;
+    font-weight: 1000;
+    color:hsl(0, 0%, 0%);
+    padding:10x 0px 10px 0px;
+    text-align: center;
+    border-radius:12px 12px 0px 0px;
+    
+   
+}
+
+.main{
+    
+    width:1000px;
+    height: 610px;
+    background: transparent;
+    backdrop-filter: blur(8px);
+    margin:auto;
+}
+.formchange{
+    object-position: static;
+}
+form{
+    padding:10px;
+}
+
+#name{
+    width:100%;
+    height:80px;
+}
+
+.name{
+    margin-left:25px;
+    margin-top:30px;
+    width:125px;
+    color:#000000;
+    font-size: 20px;
+    font-weight:700; 
+    font-family: "Lexend";
+    
+}
+
+.firstname{
+    position:relative;
+    left:200px;
+    top:-27px;
+    line-height:35px;
+    border-radius:20px;
+    padding:0 22px;
+    font-size:16px;
+    color:#000000;
+}
+
+.lastname{
+    position:relative;
+    left:480px;
+    top:-65px;
+    line-height:35px;
+    border-radius:20px;
+    padding:0 22px;
+    font-size:16px;
+    color:#000000;
+}
+
+
+#PackageType{
+    position:relative;
+    left:200px;
+    height: 35px;
+    top:-42px;
+    line-height:35px;
+    width:524px;
+    border-radius:20px;
+    padding:0 22px;
+    font-size:16px;
+    color:#000000;
+}
+
+
+.nic{
+    position:relative;
+    left:200px;
+    top:-37px;
+    line-height:35px;
+    width:524px;
+    border-radius:20px;
+    padding:0 22px;
+    font-size:16px;
+    color:#000000;
+}
+
+.email{
+    position:relative;
+    left:200px;
+    top:-37px;
+    line-height:35px;
+    width:524px;
+    border-radius:20px;
+    padding:0 22px;
+    font-size:16px;
+    color:#000000;
+}
+
+.code{
+    position:relative;
+    left:200px;
+    top:-37px;
+    line-height:35px;
+    width:95px;
+    border-radius:20px;
+    padding:0 22px;
+    font-size:16px;
+    color:#000000;
+}
+
+.number{
+    position:relative;
+    left:200px;
+    top:-37px;
+    line-height:35px;
+    width:327px;
+    border-radius:20px;
+    padding:0 22px;
+    font-size:16px;
+    color:#000000;
+  }
+.area-code{
+    position:relative;
+    color:#000000;
+    text-transform:capitalize;
+    font-size:20px;
+    font-weight: 1000px;
+    left:100px;
+    top:-4px;
+}
+
+.phone-number{
+    position:relative;
+    color:#000000;
+    text-transform:capitalize;
+    font-size:20px;
+    font-weight: 1000px;
+    left:-120px;
+    top:-4px;
+}
+
+button{
+    background-color:#162938;
+    display:block;
+    margin:20px 0px 20px;
+    text-align:center;
+    font-size: 18px;
+    border-radius:18px;
+    border:2px solid #869196;
+    padding:14px 110px;
+    outline:none;
+    color:rgb(255, 255, 255);
+    cursor:pointer;
+    transition:0.25px;
+}
+
+button:hover {
+    background-color:#0f202c;
+}
+
+.popup {
+    width: 400px;
+    background: white;
+    border-radius: 6px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0.1);
+    text-align: center;
+    padding: 0 30px 30px;
+    color: #333;
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+}
+
+.open-popup{
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%,-50%) scale(1);
+}
+
+.popup img {
+    width: 100px;
+    margin-top: -50px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+
+}
+
+.popup h2{
+    font-size: 38px;
+    font-weight: 500;
+    margin: 30px 0 10px;
+}
+
+.popup button {
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px 0;
+    color: white;
+    border: 0;;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+

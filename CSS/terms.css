@@ -1,0 +1,45 @@
+
+*{
+  box-sizing: border-box
+}
+
+
+.topic
+{
+  color: #142941;
+  padding-top: 100px;
+  font-family: 'Lexend';
+  font-size: 40px;
+  text-align: center;
+
+}
+
+.main
+{
+  color: #000000;
+  padding-top: 20px;
+  font-family: 'Lexend';
+  font-size: 18px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.contain
+{
+  color: #000000;
+  font-family: 'Lexend';
+  font-size: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  
+}
+.contct{
+  color: #000000;
+  font-size: 18px;
+  font-family: 'Lexend';
+  padding-bottom: 30px;
+}
+
+
+
+

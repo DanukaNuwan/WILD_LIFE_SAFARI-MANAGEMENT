@@ -1,0 +1,64 @@
+/*Body*/
+body{
+	background-image:url("../IMG/g.jpg");
+  background-size: cover;
+}
+
+
+/*Heading sign up*/
+h1{
+  color: #02e2fb;
+  font-family: "Lexend";
+
+}
+
+/*form*/
+form {
+  width: 500px;
+  margin: 10 auto;
+}
+
+/*Label*/
+label {
+  display: block;
+  margin-bottom: 10px;
+  color:#ffffff;
+  font-size:28px;
+  font-family: "Lexend";
+}
+
+/*Input*/
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  
+}
+
+/*Button*/
+.button {
+  background-color:#3BAF9F;
+  color:#fff;
+  padding:10px 20px;
+  border-radius:25px;
+  cursor:pointer;
+}
+ .button:hover{
+  background-color: #108E75;
+}
+
+p{
+	color:white;
+}
+
+.form{
+  background-color:rgb(0,0,0,.6);
+  padding:100px;
+  border-radius: 10px;
+  
+
+}

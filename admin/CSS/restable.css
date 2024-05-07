@@ -1,0 +1,216 @@
+@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
+
+* {
+  font-family: "Muli", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Sidebar CSS */
+.txt {
+  font-weight: bold;
+}
+
+#pgside {
+  width: 210px;
+  flex-shrink: 0;
+  transition: width 0.2s;
+  background: #28313b;
+}
+
+/* (B2) USER OR BRANDING */
+#pgside #pguser {
+  display: flex;
+  /* align-items: center; */
+  padding: 20px;
+}
+#pgside #pguser img {
+  width: 242px;
+  height: 70px;
+  margin-right: 15px;
+  /* margin-right: 5px; */
+  /* border-radius: 50%; */
+}
+
+/* (B3) SIDEBAR ITEMS */
+#pgside,
+#pgside a {
+  color: #fff;
+}
+#pgside a {
+  display: block;
+  padding: 20px;
+  width: 100%;
+  text-decoration: none;
+  cursor: pointer;
+}
+#pgside a.current {
+  background: #04AAbD;
+}
+#pgside a:hover {
+  background: #04AAbD;
+}
+
+/* (B4) SIDEBAR ICONS & TEXT */
+#pgside i.ico,
+#pgside i.txt {
+  font-style: normal;
+}
+#pgside i.ico {
+  font-size: 1.1em;
+  margin-right: 10px;
+}
+
+/* (C) MAIN CONTENTS */
+#pgmain {
+  flex-grow: 1;
+  padding: 10px;
+  background: #f2f2f2; 
+}
+
+
+/* Button Styles */
+.button {
+  background-color: #ffffff; /* Green */
+  border: 3px solid #28313b;
+  padding: 10px;
+  width: 145px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.buttonAdd:hover {
+  background-color: #04AAbD;
+  color: white;
+  font-weight: bold;
+
+}
+
+.buttonEdit {
+  background-color: white;
+  border: solid black;
+  width: 100px;
+}
+
+.buttonEdit:hover {
+  background-color:#04AAbD;
+  color: whitesmoke;
+  font-weight: bold;
+  border: none;
+}
+
+.buttonDel {
+  background-color: white;
+  border: solid red;
+  width: 100px;
+  color: black;
+}
+
+.buttonDel:hover {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  border: none;
+}
+
+.buttonSubmit:hover {
+  background-color: #dc143c;
+  color: white;
+  font-weight: bold;
+
+  /* border: none; */
+}
+
+/* Table CSS */
+.styled-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  width: 100%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+  background-color: #28313b;
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+}
+
+.styled-table th,
+.styled-table td {
+  padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #28313b;
+}
+
+.styled-table tbody tr.active-row {
+  font-weight: bold;
+  color: #04AAbD;
+}
+
+
+/* Alert CSS */
+.alert {
+  position: relative;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  font-family: "Muli";
+}
+.alert .close {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  color: #f70000;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.alert.success {
+  color: #155724;
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+}
+
+.alert.danger {
+  color: #721c24;
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+}
+
+#alertDiv {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
